@@ -14,7 +14,7 @@ $(document).ready(function(){
        
         $.ajax({
             type:'post',
-            url: 'homeMail.php',
+            url: 'mail.php',
             data: formData,
             dataType: 'json',
             encode: true,
